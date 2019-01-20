@@ -1,0 +1,846 @@
+﻿Log file open, 01/20/19 09:08:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Drugmatic_WC
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.288307
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.975s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="Simi Gu" -epicuserid=83400203e6e243c9ad23ce88e74dd04b -epiclocale=en-US
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.105s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.20-14.08.32:381][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.20-14.08.32:381][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.20-14.08.32:410][  0]LogHAL: Display: Platform has ~ 32 GB [34241679360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.20-14.08.32:410][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.20-14.08.32:410][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.20-14.08.32:410][  0]LogInit: Computer: MSI
+[2019.01.20-14.08.32:410][  0]LogInit: User: simig
+[2019.01.20-14.08.32:410][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.20-14.08.32:410][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2019.01.20-14.08.32:411][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.01.20-14.08.32:411][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.20-14.08.32:411][  0]LogMemory: Process Physical Memory: 106.48 MB used, 106.48 MB peak
+[2019.01.20-14.08.32:411][  0]LogMemory: Process Virtual Memory: 95.12 MB used, 95.12 MB peak
+[2019.01.20-14.08.32:411][  0]LogMemory: Physical Memory: 9579.11 MB used,  23076.30 MB free, 32655.41 MB total
+[2019.01.20-14.08.32:411][  0]LogMemory: Virtual Memory: 4659.09 MB used,  23076.30 MB free, 134217728.00 MB total
+[2019.01.20-14.08.32:716][  0]LogInit: Using OS detected language (en-US).
+[2019.01.20-14.08.32:716][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.20-14.08.32:716][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.20-14.08.33:097][  0]LogStreaming: Display: Took  0.381s to InitEngineTextLocalization.
+[2019.01.20-14.08.33:097][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.20-14.08.33:145][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.20-14.08.33:145][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.20-14.08.33:367][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.20-14.08.33:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (Feature Level 11_0)
+[2019.01.20-14.08.33:445][  0]LogD3D11RHI:       8081/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.20-14.08.33:455][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.20-14.08.33:455][  0]LogD3D11RHI:       128/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.20-14.08.33:457][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.20-14.08.33:457][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.20-14.08.33:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.20-14.08.33:488][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.20-14.08.33:488][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.20-14.08.33:488][  0]LogWindows: EnumDisplayDevices:
+[2019.01.20-14.08.33:489][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.01.20-14.08.33:489][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.20-14.08.33:489][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.20-14.08.33:490][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.20-14.08.33:490][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.20-14.08.33:491][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.20-14.08.33:491][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.20-14.08.33:491][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.20-14.08.33:491][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 with Max-Q Design
+[2019.01.20-14.08.33:491][  0]LogD3D11RHI:   Driver Version: 417.01 (internal:25.21.14.1701, unified:417.01)
+[2019.01.20-14.08.33:491][  0]LogD3D11RHI:      Driver Date: 11-15-2018
+[2019.01.20-14.08.33:491][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.01.20-14.08.33:541][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.20-14.08.33:565][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.20-14.08.33:566][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Intermediate/Shaders/WorkingDirectory/11376/).
+[2019.01.20-14.08.33:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simig/AppData/Local/Temp/UnrealShaderWorkingDir/2F6A2896405B54C1F84F06B86DD59112/'.
+[2019.01.20-14.08.33:921][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.20-14.08.33:934][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.20-14.08.33:947][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.20-14.08.33:961][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.20-14.08.33:974][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.20-14.08.33:988][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.20-14.08.34:001][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.20-14.08.34:014][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.20-14.08.34:021][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:101][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.20-14.08.34:102][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.20-14.08.34:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.20-14.08.34:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.20-14.08.34:188][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.20-14.08.34:188][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.20-14.08.34:201][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.20-14.08.34:214][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.20-14.08.34:227][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.20-14.08.34:240][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.20-14.08.34:251][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.20-14.08.34:251][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.20-14.08.34:299][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.20-14.08.34:299][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.20-14.08.34:299][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.20-14.08.35:027][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.20-14.08.35:092][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.20-14.08.35:105][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.20-14.08.35:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simig/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.20-14.08.35:119][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.20-14.08.35:119][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.20-14.08.36:442][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.20-14.08.36:444][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.20-14.08.36:444][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.20-14.08.36:524][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2019.01.20-14.08.36:848][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.20-14.08.36:996][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.20-14.08.37:000][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.20-14.08.37:000][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.20-14.08.37:000][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.20-14.08.37:000][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.20-14.08.37:020][  0]LogNetVersion: Drugmatic_WC 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2688278964)
+[2019.01.20-14.08.38:787][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 1.034220 seconds
+[2019.01.20-14.08.38:795][  0]LogUObjectArray: 38428 objects as part of root set at end of initial load.
+[2019.01.20-14.08.38:796][  0]LogUObjectAllocator: 6691632 out of 0 bytes used by permanent object pool.
+[2019.01.20-14.08.38:796][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.20-14.08.39:832][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.20-14.08.39:846][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.20-14.08.40:654][  0]SourceControl: Source control is disabled
+[2019.01.20-14.08.40:654][  0]SourceControl: Source control is disabled
+[2019.01.20-14.08.40:656][  0]SourceControl: Source control is disabled
+[2019.01.20-14.08.40:657][  0]SourceControl: Source control is disabled
+[2019.01.20-14.08.40:856][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.20-14.08.41:942][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2019.01.20-14.08.41:942][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2019.01.20-14.08.41:942][  0]LeapMotionLog: Leap Plugin started v3.0.1
+[2019.01.20-14.08.41:946][  0]LogOcInput: OculusInput pre-init called
+[2019.01.20-14.08.42:013][  0]LogEngine: Initializing Engine...
+[2019.01.20-14.08.42:013][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.01.20-14.08.42:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.20-14.08.42:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.20-14.08.42:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.20-14.08.42:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.20-14.08.42:319][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.20-14.08.42:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.20-14.08.42:406][  0]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.08.42:438][  0]LogInit: FAudioDevice initialized.
+[2019.01.20-14.08.42:438][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.20-14.08.42:537][  0]LogDerivedDataCache: Saved boot cache 0.10s 86MB C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.20-14.08.42:545][  0]LogInit: Texture streaming: Enabled
+[2019.01.20-14.08.42:559][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.20-14.08.42:571][  0]LogInit: Transaction tracking system initialized
+[2019.01.20-14.08.42:587][  0]BlueprintLog: New page: Editor Load
+[2019.01.20-14.08.42:647][  0]LocalizationService: Localization service is disabled
+[2019.01.20-14.08.43:032][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.20-14.08.43:032][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.20-14.08.43:032][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.20-14.08.43:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.20-14.08.43:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.20-14.08.43:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.20-14.08.43:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.20-14.08.43:138][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/TeamDrugmatic/Drugmatic_WC/Content/' took 0.02s
+[2019.01.20-14.08.43:138][  0]SourceControl: Source control is disabled
+[2019.01.20-14.08.43:138][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.08.43:183][  0]LightingResults: New page: Lighting Build
+[2019.01.20-14.08.43:184][  0]MapCheck: New page: Map Check
+[2019.01.20-14.08.43:184][  0]LightingResults: New page: Lighting Build
+[2019.01.20-14.08.44:204][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.01.20-14.08.44:301][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.08.44:323][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.08.44:376][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.195ms to complete.
+[2019.01.20-14.08.44:376][  0]LogFileHelpers: Loading map 'StartupMap' took 1.237
+[2019.01.20-14.08.44:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.08.44:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.08.44:896][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.08.44:904][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.08.44:992][  0]LogCollectionManager: Loaded 0 collections in 0.001077 seconds
+[2019.01.20-14.08.45:190][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/TeamDrugmatic/Drugmatic_WC/Saved/Collections/' took 0.01s
+[2019.01.20-14.08.45:190][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/TeamDrugmatic/Drugmatic_WC/Content/Developers/simig/Collections/' took 0.01s
+[2019.01.20-14.08.45:190][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/TeamDrugmatic/Drugmatic_WC/Content/Collections/' took 0.01s
+[2019.01.20-14.08.45:190][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.20-14.08.45:202][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2588 classes and 613 folders.
+[2019.01.20-14.08.45:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.20-14.08.46:193][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.20-14.08.46:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.20-14.08.46:638][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.20-14.08.46:641][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.20-14.08.46:698][  0]LogSlate: Took 0.013713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.20-14.08.46:969][  0]LogRenderer: Reallocating scene render targets to support 1112x400 Format 26 NumSamples 1 (Frame:1).
+[2019.01.20-14.08.47:509][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.20-14.08.47:510][  0]LogLoad: (Engine Initialization) Total time: 20.63 seconds
+[2019.01.20-14.08.47:510][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.20-14.08.47:528][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.20-14.08.47:529][  0]LogOcInput: OculusInput is initialized
+[2019.01.20-14.08.47:620][  0]LeapMotionLog: ServiceMessageLoop started.
+[2019.01.20-14.08.47:620][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2019.01.20-14.08.47:620][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2019.01.20-14.08.47:662][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.20-14.08.47:739][  0]LogSlate: Took 0.017099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.20-14.08.48:179][  1]LeapMotionLog: LeapService: OnConnect.
+[2019.01.20-14.08.48:179][  1]LogAssetRegistry: Asset discovery search completed in 11.6772 seconds
+[2019.01.20-14.08.48:181][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.20-14.08.48:181][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.01.20-14.08.48:181][  1]LeapMotionLog: OnDeviceFound Peripheral S326A002090.
+[2019.01.20-14.08.48:582][ 19]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.20-14.08.57:168][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.09.12:566][660]LogAIModule: Creating AISystem for world UMGUIExample
+[2019.01.20-14.09.12:749][660]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.09.12:750][660]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.09.12:859][660]LogAssetEditorManager: Opening Asset editor for World /Game/Modules/UMGUI/UMGUIExample.UMGUIExample
+[2019.01.20-14.09.12:915][660]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.09.12:915][660]LightingResults: New page: Lighting Build
+[2019.01.20-14.09.12:916][660]LoadErrors: New page: Loading map: UMGUIExample.umap
+[2019.01.20-14.09.12:917][660]MapCheck: New page: Map Check
+[2019.01.20-14.09.12:917][660]LightingResults: New page: Lighting Build
+[2019.01.20-14.09.13:044][660]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.09.13:113][660]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.09.13:216][660]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 103.081ms to complete.
+[2019.01.20-14.09.13:217][660]LogFileHelpers: Loading map 'UMGUIExample' took 0.302
+[2019.01.20-14.09.50:123][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.10.06:293][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.10.28:764][158]LogEditorViewport: Clicking on Actor (LMB): InteractableWidgetActor_C (InteractableWidgetActor)
+[2019.01.20-14.10.30:798][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.10.33:673][411]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Modules/UMGUI/BasicTestUMG.BasicTestUMG
+[2019.01.20-14.10.34:941][411]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.01.20-14.10.36:524][411]LogSlate: Took 0.016501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.20-14.10.46:731][813]BlueprintLog: New page: Compile BasicTestUMG
+[2019.01.20-14.10.48:471][870]LogSlate: Window 'BasicTestUMG*' being destroyed
+[2019.01.20-14.10.56:988][380]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/UMGUI/InteractableWidgetActor.InteractableWidgetActor
+[2019.01.20-14.10.57:973][381]LogSlate: Took 0.035326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.20-14.10.58:679][423]BlueprintLog: New page: Compile InteractableWidgetActor
+[2019.01.20-14.10.59:517][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/InteractableWidgetActor" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/InteractableWidgetActor.uasset" SILENT=true
+[2019.01.20-14.11.01:131][446]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/InteractableWidgetActorF435D7534DD0C5F448923F9F0F1BEBDD.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/InteractableWidgetActor.uasset'
+[2019.01.20-14.11.03:938][604]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Modules/UMGUI/DarkUMG1.DarkUMG1
+[2019.01.20-14.11.12:933][ 87]BlueprintLog: New page: Compile DarkUMG1
+[2019.01.20-14.11.16:999][309]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/UMGUI/DarkWidget.DarkWidget
+[2019.01.20-14.11.18:660][386]LogRenderer: Reallocating scene render targets to support 1112x712 Format 26 NumSamples 1 (Frame:1).
+[2019.01.20-14.11.20:054][462]BlueprintLog: New page: Compile DarkWidget
+[2019.01.20-14.11.20:707][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/DarkWidget" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/DarkWidget.uasset" SILENT=true
+[2019.01.20-14.11.20:763][482]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/DarkWidget268608184F79B0FA8E99CE82E1075977.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/DarkWidget.uasset'
+[2019.01.20-14.11.26:600][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.11.28:032][849]LogSlate: Window 'Save Content' being destroyed
+[2019.01.20-14.11.28:065][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/BasicTestUMG" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/BasicTestUMG.uasset" SILENT=true
+[2019.01.20-14.11.28:196][849]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/BasicTestUMG9D6551A3410B1ACEA6535594CAADC921.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/BasicTestUMG.uasset'
+[2019.01.20-14.11.28:219][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/DarkUMG1" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/DarkUMG1.uasset" SILENT=true
+[2019.01.20-14.11.28:267][849]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/DarkUMG18AC647C54691F3ED13CB0AB6F30519E9.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/DarkUMG1.uasset'
+[2019.01.20-14.11.28:878][849]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/UMGUIExampleA7A813EE49268C46116A85BA985DBBBE.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap'
+[2019.01.20-14.11.28:948][849]LogFileHelpers: Saving map 'UMGUIExample' took 0.656
+[2019.01.20-14.11.33:504][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.11.50:054][ 48]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.11.53:158][231]LogAssetEditorManager: Opening Asset editor for World /Game/Modules/UMGUI/Final.Final
+[2019.01.20-14.11.56:757][231]LogSlate: Window 'Save Content' being destroyed
+[2019.01.20-14.11.56:885][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/Final" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.20-14.11.57:411][231]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/Final500B52CA4E49C8870954618896EAD80D.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final.umap'
+[2019.01.20-14.11.57:450][231]LogFileHelpers: Saving map 'Final' took 0.685
+[2019.01.20-14.11.57:450][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/Final_BuiltData" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final_BuiltData.uasset" SILENT=true
+[2019.01.20-14.11.57:666][231]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/Final_BuiltDataD66E23EE4E2B7E3013FAE4A3DB01B6DF.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final_BuiltData.uasset'
+[2019.01.20-14.11.57:675][231]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.11.57:675][231]LightingResults: New page: Lighting Build
+[2019.01.20-14.11.57:676][231]LoadErrors: New page: Loading map: Final.umap
+[2019.01.20-14.11.57:678][231]MapCheck: New page: Map Check
+[2019.01.20-14.11.57:678][231]LightingResults: New page: Lighting Build
+[2019.01.20-14.11.57:781][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.11.57:849][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.11.57:967][231]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.956ms to complete.
+[2019.01.20-14.11.57:968][231]LogFileHelpers: Loading map 'Final' took 0.294
+[2019.01.20-14.12.04:637][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.12.21:930][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.12.32:086][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:087][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:087][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:088][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:088][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:089][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:090][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:091][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:091][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:092][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:092][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:093][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:093][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:094][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:094][234]LogEditorActor: Deleted Actor: BP_DarkScene_C
+[2019.01.20-14.12.32:095][234]LogEditorActor: Deleted Actor: BP_FancyScene_C
+[2019.01.20-14.12.32:124][234]LogEditorActor: Deleted 16 Actors (0.090 secs)
+[2019.01.20-14.12.35:638][437]LogEditorActor: Deleted Actor: BP_PostProcess_C
+[2019.01.20-14.12.35:673][437]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.01.20-14.12.37:761][554]LogEditorActor: Deleted Actor: LevelSequenceActor
+[2019.01.20-14.12.37:796][554]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.01.20-14.12.38:975][617]LogEditorActor: Deleted Actor: DarkWidget_C
+[2019.01.20-14.12.39:011][617]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.20-14.12.51:623][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.13.03:668][ 86]Cmd: DELETE
+[2019.01.20-14.13.03:668][ 86]Cmd: ACTOR DELETE
+[2019.01.20-14.13.03:775][ 86]LogEditorActor: Deleted Actor: InteractableWidgetActor_C
+[2019.01.20-14.13.03:812][ 86]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.01.20-14.13.04:579][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.13.08:620][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.13.13:805][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:806][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:807][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:807][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:808][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:808][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:809][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:809][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:810][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:810][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:810][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:811][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:812][673]LogEditorActor: Deleted Actor: Mask_C
+[2019.01.20-14.13.13:842][673]LogEditorActor: Deleted 13 Actors (0.044 secs)
+[2019.01.20-14.13.18:511][943]LogEditorActor: Deleted Actor: AmbientSound
+[2019.01.20-14.13.18:512][943]LogEditorActor: Deleted Actor: AmbientSound
+[2019.01.20-14.13.18:549][943]LogEditorActor: Deleted 2 Actors (0.041 secs)
+[2019.01.20-14.13.19:614][997]EditorErrors: New page: Actor attachment
+[2019.01.20-14.13.25:881][370]Cmd: DELETE
+[2019.01.20-14.13.25:881][370]Cmd: ACTOR DELETE
+[2019.01.20-14.13.25:885][370]LogEditorActor: Deleted Actor: TriggerSphere
+[2019.01.20-14.13.25:918][370]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.01.20-14.13.25:922][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.13.27:303][445]LogEditorActor: Deleted Actor: LevelSequenceActor
+[2019.01.20-14.13.27:340][445]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.01.20-14.13.32:703][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor2)
+[2019.01.20-14.13.33:908][822]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (2_Cue)
+[2019.01.20-14.13.35:947][941]Cmd: DELETE
+[2019.01.20-14.13.35:947][941]Cmd: ACTOR DELETE
+[2019.01.20-14.13.35:951][941]LogEditorActor: Deleted Actor: AmbientSound
+[2019.01.20-14.13.35:986][941]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.01.20-14.13.40:704][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.13.40:754][220]LogTemp: Repeating last play command: VR Preview
+[2019.01.20-14.13.40:781][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.13.40:781][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.20-14.13.40:781][220]LogHMD: Initializing OVRPlugin session
+[2019.01.20-14.13.41:229][220]PIE: New page: PIE session: Final (Jan 20, 2019, 4:13:41 AM)
+[2019.01.20-14.13.41:229][220]LogPlayLevel: Creating play world package: /Game/Modules/UMGUI/UEDPIE_0_Final
+[2019.01.20-14.13.41:235][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005955s)
+[2019.01.20-14.13.41:235][220]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.13.41:236][220]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.01.20-14.13.41:236][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/UMGUI/Final.Final to /Game/Modules/UMGUI/UEDPIE_0_Final.Final (0.007095s)
+[2019.01.20-14.13.41:340][220]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.13.41:367][220]LogInit: FAudioDevice initialized.
+[2019.01.20-14.13.41:374][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.13.41:467][220]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.01.20-14.13.41:510][220]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.20-14.13.41:510][220]LogLoad: Game class is 'GameModeBase'
+[2019.01.20-14.13.41:515][220]LogTemp: Bone cache synced: 0
+[2019.01.20-14.13.41:515][220]LogTemp: Bone cache synced: 20
+[2019.01.20-14.13.41:515][220]LogTemp: Bone cache synced: 0
+[2019.01.20-14.13.41:516][220]LogTemp: Bone cache synced: 20
+[2019.01.20-14.13.41:516][220]LogWorld: Bringing World /Game/Modules/UMGUI/UEDPIE_0_Final.Final up for play (max tick rate 0) at 2019.01.20-09.13.41
+[2019.01.20-14.13.41:516][220]LeapMotionLog: AddEventDelegate (1).
+[2019.01.20-14.13.41:517][220]LogWorld: Bringing up level for play took: 0.005869
+[2019.01.20-14.13.41:584][220]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.20-14.13.41:635][220]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.13.41:636][220]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.13.41:641][220]PIE: Play in editor start time for /Game/Modules/UMGUI/UEDPIE_0_Final 0.61
+[2019.01.20-14.13.41:641][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.13.41:642][220]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.13.41:667][220]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.13.41:667][220]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.13.41:747][220]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2019.01.20-14.13.41:747][220]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.01.20-14.13.48:947][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.13.49:111][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.13.49:171][865]LogSlate: Window 'Drugmatic_WC Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.20-14.13.49:208][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.20-14.13.49:208][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.13.49:259][865]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new1_Cue_5.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.13.49:259][865]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new3_Cue_9.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.13.49:259][865]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.2_Cue_12.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.13.49:283][866]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.20-14.13.49:412][866]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.13.56:458][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2019.01.20-14.13.58:219][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (duo)
+[2019.01.20-14.14.14:243][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.14.55:096][773]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/UMGUI/FinalScneWidget.FinalScneWidget
+[2019.01.20-14.15.04:814][300]BlueprintLog: New page: Compile FinalScneWidget
+[2019.01.20-14.15.07:095][414]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Modules/UMGUI/FinalSceneUMG.FinalSceneUMG
+[2019.01.20-14.18.48:710][607]LogEditorTransaction: Undo Move Widget
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Game/Modules/UMGUI/BasicTestUMG.BasicTestUMG:WidgetTree.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_10:FinalSceneUMG_C_2.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_0.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_7.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Game/Modules/UMGUI/FinalSceneUMG.FinalSceneUMG:WidgetTree.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_10:FinalSceneUMG_C_1.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_1:BasicTestUMG_C_24.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_10:FinalSceneUMG_C_0.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_5:DarkUMG1_C_10.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Game/Modules/UMGUI/FinalSceneUMG.FinalSceneUMG_C:WidgetTree.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_6.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:743][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_5.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Game/Modules/UMGUI/BasicTestUMG.BasicTestUMG_C:WidgetTree.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_4:DarkUMG1_C_22.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_8.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_10:FinalSceneUMG_C_3.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_3.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_8:FinalSceneUMG_C_4.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1_C:WidgetTree.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19 or CanvasPanel /Engine/Transient.World_2:BasicTestUMG_C_6.WidgetTree_0.CanvasPanel_19
+[2019.01.20-14.19.12:744][ 28]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Modules/UMGUI/DarkUMG1.DarkUMG1:WidgetTree.CanvasPanel_19.CanvasPanelSlot_22) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_20).  Import failed...
+[2019.01.20-14.19.12:744][ 28]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_19.CanvasPanelSlot_22"''
+[2019.01.20-14.20.45:259][528]BlueprintLog: New page: Compile FinalSceneUMG
+[2019.01.20-14.20.56:231][125]BlueprintLog: New page: Compile FinalSceneUMG
+[2019.01.20-14.20.59:574][306]BlueprintLog: New page: Compile FinalSceneUMG
+[2019.01.20-14.21.01:332][392]BlueprintLog: New page: Compile FinalScneWidget
+[2019.01.20-14.21.04:657][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.21.16:095][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.21.29:512][ 10]BlueprintLog: New page: Compile FinalScneWidget
+[2019.01.20-14.21.32:333][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.21.32:399][159]LogTemp: Repeating last play command: VR Preview
+[2019.01.20-14.21.32:432][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.32:432][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.20-14.21.32:433][159]LogHMD: Initializing OVRPlugin session
+[2019.01.20-14.21.32:713][159]PIE: New page: PIE session: Final (Jan 20, 2019, 4:21:32 AM)
+[2019.01.20-14.21.32:713][159]LogPlayLevel: Creating play world package: /Game/Modules/UMGUI/UEDPIE_0_Final
+[2019.01.20-14.21.32:719][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006449s)
+[2019.01.20-14.21.32:720][159]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.21.32:720][159]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2019.01.20-14.21.32:720][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/UMGUI/Final.Final to /Game/Modules/UMGUI/UEDPIE_0_Final.Final (0.007704s)
+[2019.01.20-14.21.32:824][159]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.21.32:849][159]LogInit: FAudioDevice initialized.
+[2019.01.20-14.21.32:856][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.21.32:939][159]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.01.20-14.21.32:969][159]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.20-14.21.32:969][159]LogLoad: Game class is 'GameModeBase'
+[2019.01.20-14.21.32:974][159]LogTemp: Bone cache synced: 0
+[2019.01.20-14.21.32:974][159]LogTemp: Bone cache synced: 20
+[2019.01.20-14.21.32:975][159]LogTemp: Bone cache synced: 0
+[2019.01.20-14.21.32:975][159]LogTemp: Bone cache synced: 20
+[2019.01.20-14.21.32:977][159]LogWorld: Bringing World /Game/Modules/UMGUI/UEDPIE_0_Final.Final up for play (max tick rate 0) at 2019.01.20-09.21.32
+[2019.01.20-14.21.32:977][159]LeapMotionLog: AddEventDelegate (1).
+[2019.01.20-14.21.32:977][159]LogWorld: Bringing up level for play took: 0.007674
+[2019.01.20-14.21.32:992][159]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.21.32:992][159]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.21.32:996][159]PIE: Play in editor start time for /Game/Modules/UMGUI/UEDPIE_0_Final -0.035
+[2019.01.20-14.21.32:996][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.32:996][159]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.21.32:997][159]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.21.32:997][159]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.21.33:005][159]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.01.20-14.21.33:005][159]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.01.20-14.21.44:363][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.44:437][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.21.44:485][114]LogSlate: Window 'Drugmatic_WC Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.20-14.21.44:529][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.20-14.21.44:529][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.44:587][114]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new1_Cue_5.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.44:587][114]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new3_Cue_9.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.44:587][114]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.2_Cue_12.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.44:613][115]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.20-14.21.44:761][115]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.21.47:076][254]LogTemp: Repeating last play command: VR Preview
+[2019.01.20-14.21.47:106][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.47:107][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.20-14.21.47:107][254]LogHMD: Initializing OVRPlugin session
+[2019.01.20-14.21.47:385][254]PIE: New page: PIE session: Final (Jan 20, 2019, 4:21:47 AM)
+[2019.01.20-14.21.47:385][254]LogPlayLevel: Creating play world package: /Game/Modules/UMGUI/UEDPIE_0_Final
+[2019.01.20-14.21.47:391][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005793s)
+[2019.01.20-14.21.47:392][254]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.21.47:392][254]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2019.01.20-14.21.47:392][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/UMGUI/Final.Final to /Game/Modules/UMGUI/UEDPIE_0_Final.Final (0.006689s)
+[2019.01.20-14.21.47:495][254]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.21.47:521][254]LogInit: FAudioDevice initialized.
+[2019.01.20-14.21.47:529][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.21.47:614][254]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.01.20-14.21.47:645][254]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.20-14.21.47:645][254]LogLoad: Game class is 'GameModeBase'
+[2019.01.20-14.21.47:651][254]LogTemp: Bone cache synced: 0
+[2019.01.20-14.21.47:651][254]LogTemp: Bone cache synced: 20
+[2019.01.20-14.21.47:652][254]LogTemp: Bone cache synced: 0
+[2019.01.20-14.21.47:652][254]LogTemp: Bone cache synced: 20
+[2019.01.20-14.21.47:652][254]LogWorld: Bringing World /Game/Modules/UMGUI/UEDPIE_0_Final.Final up for play (max tick rate 0) at 2019.01.20-09.21.47
+[2019.01.20-14.21.47:653][254]LeapMotionLog: AddEventDelegate (1).
+[2019.01.20-14.21.47:653][254]LogWorld: Bringing up level for play took: 0.007237
+[2019.01.20-14.21.47:666][254]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.21.47:666][254]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.21.47:672][254]PIE: Play in editor start time for /Game/Modules/UMGUI/UEDPIE_0_Final 0.641
+[2019.01.20-14.21.47:673][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.47:674][254]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.21.47:675][254]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.21.47:675][254]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.21.47:682][254]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.01.20-14.21.47:683][254]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.01.20-14.21.52:570][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.52:643][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.21.52:692][650]LogSlate: Window 'Drugmatic_WC Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.20-14.21.52:735][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.20-14.21.52:735][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.21.52:790][650]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new1_Cue_5.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.52:790][650]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new3_Cue_9.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.52:790][650]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.2_Cue_12.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.21.52:818][651]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.20-14.21.52:961][651]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.21.55:317][792]LogEditorViewport: Clicking on Actor (LMB): FinalScneWidget_C (FinalScneWidget)
+[2019.01.20-14.22.00:932][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.22.28:381][762]BlueprintLog: New page: Compile FinalScneWidget
+[2019.01.20-14.22.48:479][947]LogTemp: Repeating last play command: VR Preview
+[2019.01.20-14.22.48:512][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.22.48:512][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.20-14.22.48:512][947]LogHMD: Initializing OVRPlugin session
+[2019.01.20-14.22.48:789][947]PIE: New page: PIE session: Final (Jan 20, 2019, 4:22:48 AM)
+[2019.01.20-14.22.48:789][947]LogPlayLevel: Creating play world package: /Game/Modules/UMGUI/UEDPIE_0_Final
+[2019.01.20-14.22.48:795][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006097s)
+[2019.01.20-14.22.48:796][947]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.22.48:796][947]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2019.01.20-14.22.48:796][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/UMGUI/Final.Final to /Game/Modules/UMGUI/UEDPIE_0_Final.Final (0.007100s)
+[2019.01.20-14.22.48:907][947]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.22.48:933][947]LogInit: FAudioDevice initialized.
+[2019.01.20-14.22.48:941][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.22.49:032][947]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.01.20-14.22.49:062][947]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.20-14.22.49:062][947]LogLoad: Game class is 'GameModeBase'
+[2019.01.20-14.22.49:068][947]LogTemp: Bone cache synced: 0
+[2019.01.20-14.22.49:068][947]LogTemp: Bone cache synced: 20
+[2019.01.20-14.22.49:069][947]LogTemp: Bone cache synced: 0
+[2019.01.20-14.22.49:069][947]LogTemp: Bone cache synced: 20
+[2019.01.20-14.22.49:070][947]LogWorld: Bringing World /Game/Modules/UMGUI/UEDPIE_0_Final.Final up for play (max tick rate 0) at 2019.01.20-09.22.49
+[2019.01.20-14.22.49:071][947]LeapMotionLog: AddEventDelegate (1).
+[2019.01.20-14.22.49:071][947]LogWorld: Bringing up level for play took: 0.008057
+[2019.01.20-14.22.49:084][947]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.22.49:084][947]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.22.49:091][947]PIE: Play in editor start time for /Game/Modules/UMGUI/UEDPIE_0_Final 0.06
+[2019.01.20-14.22.49:091][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.22.49:092][947]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.22.49:093][947]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.22.49:093][947]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.22.49:102][947]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.01.20-14.22.49:102][947]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.01.20-14.23.18:991][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.23.19:063][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.23.19:117][371]LogSlate: Window 'Drugmatic_WC Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.20-14.23.19:161][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.20-14.23.19:162][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Modules/UMGUI/Final.Final:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final' with GeneratedClass '/Game/Modules/UMGUI/Final.Final_C' with ClassGeneratedBy '/Game/Modules/UMGUI/Final.Final:PersistentLevel.Final'
+[2019.01.20-14.23.19:218][371]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new1_Cue_5.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.23.19:218][371]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.new3_Cue_9.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.23.19:218][371]LogActorComponent: ReregisterComponent: (/Game/Modules/UMGUI/Final.Final:PersistentLevel.2_Cue_12.AudioComponent0) Not currently registered. Aborting.
+[2019.01.20-14.23.19:249][372]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.20-14.23.19:406][372]LogEngine: Changing dynamic resolution state.
+[2019.01.20-14.23.20:548][440]LogEditorViewport: Clicking on Actor (LMB): FinalScneWidget_C (FinalScneWidget)
+[2019.01.20-14.23.24:497][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.23.25:426][677]LogSlate: Window 'Save Content' being destroyed
+[2019.01.20-14.23.25:576][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/Final" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.20-14.23.25:891][677]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/Final266D8C9C4A08ACB56D6467B84C01A7A0.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/Final.umap'
+[2019.01.20-14.23.25:921][677]LogFileHelpers: Saving map 'Final' took 0.466
+[2019.01.20-14.23.25:925][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/FinalSceneUMG" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalSceneUMG.uasset" SILENT=true
+[2019.01.20-14.23.25:936][677]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/FinalSceneUMG4082F34B49DCDE48EB80ACBBA6FC41ED.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalSceneUMG.uasset'
+[2019.01.20-14.23.25:944][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/FinalScneWidget" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalScneWidget.uasset" SILENT=true
+[2019.01.20-14.23.26:000][677]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/FinalScneWidget26E154FB44C56C1AC0FA59B392C8E8BC.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalScneWidget.uasset'
+[2019.01.20-14.23.42:091][625]LogAIModule: Creating AISystem for world UMGUIExample
+[2019.01.20-14.23.42:131][625]LogAssetEditorManager: Opening Asset editor for World /Game/Modules/UMGUI/UMGUIExample.UMGUIExample
+[2019.01.20-14.23.42:170][625]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.23.42:170][625]LightingResults: New page: Lighting Build
+[2019.01.20-14.23.42:171][625]LoadErrors: New page: Loading map: UMGUIExample.umap
+[2019.01.20-14.23.42:173][625]MapCheck: New page: Map Check
+[2019.01.20-14.23.42:173][625]LightingResults: New page: Lighting Build
+[2019.01.20-14.23.42:284][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.23.42:351][625]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.23.42:467][625]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.615ms to complete.
+[2019.01.20-14.23.42:468][625]LogFileHelpers: Loading map 'UMGUIExample' took 0.298
+[2019.01.20-14.23.45:299][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.23.48:735][980]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/DarkSequence.DarkSequence
+[2019.01.20-14.24.53:437][803]LogAssetEditorManager: Opening Asset editor for World /Game/Modules/UMGUI/LVL_Persistant.LVL_Persistant
+[2019.01.20-14.24.54:876][803]LogSlate: Window 'Save Content' being destroyed
+[2019.01.20-14.24.55:046][803]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/LVL_PersistantF15F026C421CAA40954012BEFF66C86C.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/LVL_Persistant.umap'
+[2019.01.20-14.24.55:050][803]LogFileHelpers: Saving map 'LVL_Persistant' took 0.166
+[2019.01.20-14.24.55:052][803]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/LVL_Persistant.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.24.55:053][803]LightingResults: New page: Lighting Build
+[2019.01.20-14.24.55:055][803]LoadErrors: New page: Loading map: LVL_Persistant.umap
+[2019.01.20-14.24.55:058][803]MapCheck: New page: Map Check
+[2019.01.20-14.24.55:058][803]LightingResults: New page: Lighting Build
+[2019.01.20-14.24.55:101][803]LogSlate: Slate User Unregistered.  User Index 8
+[2019.01.20-14.24.55:101][803]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.24.55:102][803]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.24.55:102][803]LogAIModule: Creating AISystem for world LVL_Persistant
+[2019.01.20-14.24.55:168][803]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.24.55:283][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.304ms to complete.
+[2019.01.20-14.24.55:285][803]LogFileHelpers: Loading map 'LVL_Persistant' took 0.233
+[2019.01.20-14.25.02:364][175]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.01.20-14.25.05:620][369]LogSlate: Window 'Levels' being destroyed
+[2019.01.20-14.25.19:233][181]LogSlate: Window 'Open Level' being destroyed
+[2019.01.20-14.25.21:202][295]LogAIModule: Creating AISystem for world Final
+[2019.01.20-14.25.21:205][295]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.25.21:205][295]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.25.22:788][380]LogAIModule: Creating AISystem for world UMGUIExample
+[2019.01.20-14.25.32:012][924]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.01.20-14.25.32:013][924]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.01.20-14.25.42:950][348]LogSlate: Window 'Save Asset As' being destroyed
+[2019.01.20-14.25.43:001][348]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/NewLevelSequence.NewLevelSequence
+[2019.01.20-14.27.19:803][124]LogAssetEditorManager: Opening Asset editor for World /Game/Modules/UMGUI/UMGUIExample.UMGUIExample
+[2019.01.20-14.27.21:292][124]LogSlate: Window 'Save Content' being destroyed
+[2019.01.20-14.27.21:482][124]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/LVL_PersistantA83C435A43240F8CCA6064A31C73418F.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/LVL_Persistant.umap'
+[2019.01.20-14.27.21:513][124]LogFileHelpers: Saving map 'LVL_Persistant' took 0.212
+[2019.01.20-14.27.22:101][124]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/UMGUIExample940EE9954A7ECBB476F4A28D9D191F21.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap'
+[2019.01.20-14.27.22:105][124]LogFileHelpers: Saving map 'UMGUIExample' took 0.593
+[2019.01.20-14.27.22:106][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewLevelSequence" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/NewLevelSequence.uasset" SILENT=true
+[2019.01.20-14.27.22:111][124]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/NewLevelSequenceA90AFDD445DAD4EDBA0622AA92374AFF.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/NewLevelSequence.uasset'
+[2019.01.20-14.27.22:116][124]Cmd: MAP LOAD FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.20-14.27.22:116][124]LightingResults: New page: Lighting Build
+[2019.01.20-14.27.22:118][124]LoadErrors: New page: Loading map: UMGUIExample.umap
+[2019.01.20-14.27.22:123][124]MapCheck: New page: Map Check
+[2019.01.20-14.27.22:123][124]LightingResults: New page: Lighting Build
+[2019.01.20-14.27.22:163][124]LogSlate: Slate User Unregistered.  User Index 8
+[2019.01.20-14.27.22:163][124]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.27.22:174][124]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.27.22:174][124]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.01.20-14.27.22:224][124]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.20-14.27.22:289][124]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.20-14.27.22:401][124]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.373ms to complete.
+[2019.01.20-14.27.22:403][124]LogFileHelpers: Loading map 'UMGUIExample' took 0.286
+[2019.01.20-14.27.24:531][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.28.06:975][784]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/DrugEffect.DrugEffect
+[2019.01.20-14.28.17:632][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.28.19:092][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.28.29:274][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.28.34:475][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.28.57:334][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.29.20:474][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.29.22:704][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample' with GeneratedClass '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample_C' with ClassGeneratedBy '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample'
+[2019.01.20-14.29.22:704][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.20-14.29.22:704][254]LogHMD: Initializing OVRPlugin session
+[2019.01.20-14.29.22:985][254]PIE: New page: PIE session: UMGUIExample (Jan 20, 2019, 4:29:22 AM)
+[2019.01.20-14.29.22:985][254]LogPlayLevel: Creating play world package: /Game/Modules/UMGUI/UEDPIE_0_UMGUIExample
+[2019.01.20-14.29.23:001][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015101s)
+[2019.01.20-14.29.23:001][254]LogAIModule: Creating AISystem for world UMGUIExample
+[2019.01.20-14.29.23:002][254]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2019.01.20-14.29.23:002][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/UMGUI/UMGUIExample.UMGUIExample to /Game/Modules/UMGUI/UEDPIE_0_UMGUIExample.UMGUIExample (0.016158s)
+[2019.01.20-14.29.23:102][254]LogInit: XAudio2 using '耳机 (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.20-14.29.23:129][254]LogInit: FAudioDevice initialized.
+[2019.01.20-14.29.23:160][254]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.20-14.29.23:160][254]LogLoad: Game class is 'GameModeBase'
+[2019.01.20-14.29.23:169][254]LogTemp: Bone cache synced: 0
+[2019.01.20-14.29.23:169][254]LogTemp: Bone cache synced: 20
+[2019.01.20-14.29.23:170][254]LogTemp: Bone cache synced: 0
+[2019.01.20-14.29.23:170][254]LogTemp: Bone cache synced: 20
+[2019.01.20-14.29.23:170][254]LogWorld: Bringing World /Game/Modules/UMGUI/UEDPIE_0_UMGUIExample.UMGUIExample up for play (max tick rate 60) at 2019.01.20-09.29.23
+[2019.01.20-14.29.23:480][254]LeapMotionLog: AddEventDelegate (1).
+[2019.01.20-14.29.23:480][254]LogWorld: Bringing up level for play took: 0.319062
+[2019.01.20-14.29.23:493][254]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.29.23:493][254]LogBlueprintUserMessages: [None] spawned
+[2019.01.20-14.29.23:493][254]PIE: Play in editor start time for /Game/Modules/UMGUI/UEDPIE_0_UMGUIExample 0.462
+[2019.01.20-14.29.23:494][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample' with GeneratedClass '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample_C' with ClassGeneratedBy '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample'
+[2019.01.20-14.29.23:513][254]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.29.23:513][254]LogBlueprintUserMessages: [None] 0.0
+[2019.01.20-14.29.25:573][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample' with GeneratedClass '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample_C' with ClassGeneratedBy '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample'
+[2019.01.20-14.29.25:580][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.29.25:623][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.20-14.29.25:623][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel' has LevelScriptBlueprint '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample' with GeneratedClass '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample_C' with ClassGeneratedBy '/Game/Modules/UMGUI/UMGUIExample.UMGUIExample:PersistentLevel.UMGUIExample'
+[2019.01.20-14.29.25:666][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.20-14.29.25:703][367]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.20-14.29.32:521][768]LogEditorViewport: Clicking on Actor (LMB): FinalScneWidget_C (FinalScneWidget)
+[2019.01.20-14.29.33:707][838]Cmd: DELETE
+[2019.01.20-14.29.33:707][838]Cmd: ACTOR DELETE
+[2019.01.20-14.29.33:718][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.20-14.29.33:736][838]LogAIModule: Creating AISystem for world LVL_Persistant
+[2019.01.20-14.29.33:749][838]LogEditorActor: Deleted Actor: FinalScneWidget_C
+[2019.01.20-14.29.33:787][838]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2019.01.20-14.29.39:842][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.29.46:728][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.29.54:526][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.30.02:407][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.30.24:231][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.30.53:332][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.31.13:329][721]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.01.20-14.31.14:467][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.31.20:338][108]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.20-14.31.20:928][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.31.22:771][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.31.23:801][312]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.01.20-14.31.24:912][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.31.26:964][499]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2019.01.20-14.31.28:028][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.31.30:073][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.31.33:072][854]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.01.20-14.31.34:230][921]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor2)
+[2019.01.20-14.31.38:747][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.31.57:199][282]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/DarkSequence.DarkSequence
+[2019.01.20-14.31.59:127][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.32.00:371][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.32.01:307][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.32.32:891][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.32.43:643][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.32.48:982][337]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/UMGUIExampleD9C8298E4B4356E262A382A61E0AAA36.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample.umap'
+[2019.01.20-14.32.49:016][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/UMGUIExample_BuiltData" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample_BuiltData.uasset" SILENT=true
+[2019.01.20-14.32.49:291][337]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/UMGUIExample_BuiltData1AB22C42435DD6CE0C2A8B80FB38B3E8.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/UMGUIExample_BuiltData.uasset'
+[2019.01.20-14.32.57:730][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_NYC_LowPolyBuildings_Set01_Mid)
+[2019.01.20-14.32.58:419][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Building_S_NEW)
+[2019.01.20-14.32.59:979][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.33.00:089][962]LogSlate: Took 0.103380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.20-14.33.00:200][962]LogSlate: Took 0.090220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.01.20-14.33.21:505][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.33.35:257][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.33.48:147][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.33.50:442][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.33.56:413][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.35.17:357][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.35.20:625][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.35.41:568][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.20-14.38.11:367][537]BlueprintLog: New page: Compile FinalSceneUMG
+[2019.01.20-14.38.14:706][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modules/UMGUI/FinalSceneUMG" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalSceneUMG.uasset" SILENT=true
+[2019.01.20-14.38.14:725][713]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/FinalSceneUMG0FA320FD4203D38632020EA94C9C3046.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/Modules/UMGUI/FinalSceneUMG.uasset'
+[2019.01.20-14.41.30:609][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DarkSequence" FILE="../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/DarkSequence.uasset" SILENT=true
+[2019.01.20-14.41.30:865][817]LogSavePackage: Moving '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Saved/DarkSequence0D58C71243A7FE57DC4AA996922C6B8A.tmp' to '../../../../../../GitHub/TeamDrugmatic/Drugmatic_WC/Content/DarkSequence.uasset'

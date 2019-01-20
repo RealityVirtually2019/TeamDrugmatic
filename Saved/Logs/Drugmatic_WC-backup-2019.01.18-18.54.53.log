@@ -1,0 +1,826 @@
+﻿Log file open, 01/18/19 17:55:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Drugmatic_WC
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282502
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.197s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.18-22.55.14:554][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.18-22.55.14:554][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.18-22.55.14:640][  0]LogHAL: Display: Platform has ~ 32 GB [34241679360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.18-22.55.14:640][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.18-22.55.14:640][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.18-22.55.14:640][  0]LogInit: Computer: MSI
+[2019.01.18-22.55.14:640][  0]LogInit: User: simig
+[2019.01.18-22.55.14:640][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.18-22.55.14:640][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2019.01.18-22.55.14:640][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.01.18-22.55.14:640][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.18-22.55.14:640][  0]LogMemory: Process Physical Memory: 102.91 MB used, 102.91 MB peak
+[2019.01.18-22.55.14:640][  0]LogMemory: Process Virtual Memory: 96.50 MB used, 96.50 MB peak
+[2019.01.18-22.55.14:640][  0]LogMemory: Physical Memory: 11743.99 MB used,  20911.42 MB free, 32655.41 MB total
+[2019.01.18-22.55.14:641][  0]LogMemory: Virtual Memory: 4657.89 MB used,  20911.42 MB free, 134217728.00 MB total
+[2019.01.18-22.55.14:958][  0]LogInit: Using OS detected language (en-US).
+[2019.01.18-22.55.14:958][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.18-22.55.14:959][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.18-22.55.15:337][  0]LogStreaming: Display: Took  0.379s to InitEngineTextLocalization.
+[2019.01.18-22.55.15:338][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.18-22.55.15:366][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.18-22.55.15:366][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.18-22.55.15:600][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.01.18-22.55.15:600][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.18-22.55.15:684][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (Feature Level 11_0)
+[2019.01.18-22.55.15:684][  0]LogD3D11RHI:       8081/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.18-22.55.15:696][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.18-22.55.15:696][  0]LogD3D11RHI:       128/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.18-22.55.15:698][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.18-22.55.15:698][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.18-22.55.15:698][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.18-22.55.15:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.18-22.55.15:728][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.18-22.55.15:728][  0]LogWindows: EnumDisplayDevices:
+[2019.01.18-22.55.15:728][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.01.18-22.55.15:729][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.18-22.55.15:729][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.18-22.55.15:729][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.18-22.55.15:730][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.18-22.55.15:730][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.18-22.55.15:731][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070 with Max-Q Design' (P:0 D:0)
+[2019.01.18-22.55.15:731][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.18-22.55.15:731][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 with Max-Q Design
+[2019.01.18-22.55.15:731][  0]LogD3D11RHI:   Driver Version: 417.01 (internal:25.21.14.1701, unified:417.01)
+[2019.01.18-22.55.15:731][  0]LogD3D11RHI:      Driver Date: 11-15-2018
+[2019.01.18-22.55.15:731][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.01.18-22.55.15:779][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.18-22.55.15:804][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.18-22.55.15:805][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Unreal Projects/Drugmatic_WC/Intermediate/Shaders/WorkingDirectory/8592/).
+[2019.01.18-22.55.15:805][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simig/AppData/Local/Temp/UnrealShaderWorkingDir/DEEF059743F59C439469ABAA8A5306F9/'.
+[2019.01.18-22.55.16:151][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.18-22.55.16:163][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.18-22.55.16:179][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.18-22.55.16:192][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.18-22.55.16:204][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.18-22.55.16:218][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.18-22.55.16:231][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.18-22.55.16:244][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.18-22.55.16:251][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.18-22.55.16:331][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.18-22.55.16:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.18-22.55.16:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.18-22.55.16:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.18-22.55.16:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.18-22.55.16:428][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.18-22.55.16:441][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.18-22.55.16:454][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.18-22.55.16:467][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.18-22.55.16:477][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.18-22.55.16:477][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.18-22.55.16:527][  0]LogXGEController: Cleaning working directory: C:/Users/simig/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.18-22.55.16:527][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.18-22.55.16:527][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.18-22.55.16:527][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.18-22.55.17:240][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.18-22.55.17:305][  0]LogDerivedDataCache: Loaded boot cache 0.06s 81MB C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.18-22.55.17:306][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.18-22.55.17:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/Drugmatic_WC/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.18-22.55.17:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.18-22.55.17:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/Drugmatic_WC/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.18-22.55.17:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.18-22.55.17:320][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.18-22.55.17:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simig/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.18-22.55.17:333][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.18-22.55.17:333][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.18-22.55.17:352][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.18-22.55.17:354][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.18-22.55.17:354][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.18-22.55.17:428][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2019.01.18-22.55.17:752][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.18-22.55.17:804][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.18-22.55.17:807][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.18-22.55.17:807][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.18-22.55.17:807][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.18-22.55.17:807][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.18-22.55.17:907][  0]LogNetVersion: Drugmatic_WC 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2688278964)
+[2019.01.18-22.55.18:444][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.114009 seconds
+[2019.01.18-22.55.18:453][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.01.18-22.55.18:453][  0]LogUObjectAllocator: 6691096 out of 0 bytes used by permanent object pool.
+[2019.01.18-22.55.18:453][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.18-22.55.19:314][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.18-22.55.19:327][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.18-22.55.19:511][  0]SourceControl: Source control is disabled
+[2019.01.18-22.55.19:511][  0]SourceControl: Source control is disabled
+[2019.01.18-22.55.19:513][  0]SourceControl: Source control is disabled
+[2019.01.18-22.55.19:513][  0]SourceControl: Source control is disabled
+[2019.01.18-22.55.19:678][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.18-22.55.19:917][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2019.01.18-22.55.19:917][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2019.01.18-22.55.19:917][  0]LeapMotionLog: Leap Plugin started v3.0.1
+[2019.01.18-22.55.19:920][  0]LogOcInput: OculusInput pre-init called
+[2019.01.18-22.55.19:987][  0]LogEngine: Initializing Engine...
+[2019.01.18-22.55.20:011][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.01.18-22.55.20:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.18-22.55.20:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.18-22.55.20:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.18-22.55.20:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.18-22.55.20:239][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.18-22.55.20:250][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.18-22.55.20:297][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.18-22.55.20:406][  0]LogInit: FAudioDevice initialized.
+[2019.01.18-22.55.20:406][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.18-22.55.20:506][  0]LogDerivedDataCache: Saved boot cache 0.10s 81MB C:/Users/simig/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.18-22.55.20:513][  0]LogInit: Texture streaming: Enabled
+[2019.01.18-22.55.20:527][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.18-22.55.20:610][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={8515FB27-408D-3BF2-063E-02B9F0C0DACD}
+[2019.01.18-22.55.20:622][  0]LogInit: Transaction tracking system initialized
+[2019.01.18-22.55.20:640][  0]BlueprintLog: New page: Editor Load
+[2019.01.18-22.55.20:702][  0]LocalizationService: Localization service is disabled
+[2019.01.18-22.55.20:992][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.18-22.55.20:992][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.18-22.55.20:992][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.18-22.55.20:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.18-22.55.20:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.18-22.55.20:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.18-22.55.20:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.18-22.55.21:025][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Drugmatic_WC/Content/' took 0.02s
+[2019.01.18-22.55.21:095][  0]SourceControl: Source control is disabled
+[2019.01.18-22.55.21:095][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/Drugmatic_WC/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.18-22.55.21:095][  0]LightingResults: New page: Lighting Build
+[2019.01.18-22.55.21:098][  0]MapCheck: New page: Map Check
+[2019.01.18-22.55.21:098][  0]LightingResults: New page: Lighting Build
+[2019.01.18-22.55.21:601][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.01.18-22.55.21:611][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.18-22.55.21:632][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.18-22.55.21:686][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.006ms to complete.
+[2019.01.18-22.55.21:686][  0]LogFileHelpers: Loading map 'StartupMap' took 0.591
+[2019.01.18-22.55.21:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.55.21:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.55.21:813][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.55.21:821][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.55.21:825][  0]LogCollectionManager: Loaded 0 collections in 0.000990 seconds
+[2019.01.18-22.55.21:867][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Drugmatic_WC/Saved/Collections/' took 0.01s
+[2019.01.18-22.55.21:867][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Drugmatic_WC/Content/Developers/simig/Collections/' took 0.01s
+[2019.01.18-22.55.21:867][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Drugmatic_WC/Content/Collections/' took 0.01s
+[2019.01.18-22.55.21:867][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.18-22.55.21:877][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2588 classes and 613 folders.
+[2019.01.18-22.55.21:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.18-22.55.21:927][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.18-22.55.21:937][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.18-22.55.23:337][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.18-22.55.23:382][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.18-22.55.23:386][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.18-22.55.23:394][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.18-22.55.23:505][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrugmaticWC
+[2019.01.18-22.55.23:505][  0]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.18-22.55.23:505][  0]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.20
+[2019.01.18-22.55.23:505][  0]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.18-22.55.23:505][  0]LogTemp: BranchPath = MSI/D/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.18-22.55.23:505][  0]LogTemp: MATCHED-Provision:,File:,Cert:
+[2019.01.18-22.55.23:505][  0]LogRenderer: Reallocating scene render targets to support 1200x512 Format 26 NumSamples 1 (Frame:1).
+[2019.01.18-22.55.23:633][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.18-22.55.23:633][  0]LogLoad: (Engine Initialization) Total time: 11.78 seconds
+[2019.01.18-22.55.23:633][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.18-22.55.23:653][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.18-22.55.23:665][  0]LeapMotionLog: ServiceMessageLoop started.
+[2019.01.18-22.55.23:665][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2019.01.18-22.55.23:666][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2019.01.18-22.55.23:671][  0]LeapMotionLog: LeapService: OnConnect.
+[2019.01.18-22.55.23:690][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.18-22.55.23:740][  1]LogAssetRegistry: Asset discovery search completed in 6.3346 seconds
+[2019.01.18-22.55.23:741][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.18-22.55.23:741][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.01.18-22.55.27:835][240]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.18-22.55.40:592][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-22.55.40:782][ 10]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.18-22.55.41:080][ 10]LogAIModule: Creating AISystem for world LVL_DevelopingTest
+[2019.01.18-22.55.41:089][ 10]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/LVL_DevelopingTest.LVL_DevelopingTest
+[2019.01.18-22.55.41:115][ 10]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/Drugmatic_WC/Content/VirtualRealityBP/Maps/LVL_DevelopingTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.18-22.55.41:115][ 10]LightingResults: New page: Lighting Build
+[2019.01.18-22.55.41:115][ 10]LoadErrors: New page: Loading map: LVL_DevelopingTest.umap
+[2019.01.18-22.55.41:116][ 10]MapCheck: New page: Map Check
+[2019.01.18-22.55.41:116][ 10]LightingResults: New page: Lighting Build
+[2019.01.18-22.55.41:145][ 10]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.18-22.55.41:185][ 10]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.18-22.55.41:241][ 10]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.901ms to complete.
+[2019.01.18-22.55.41:241][ 10]LogFileHelpers: Loading map 'LVL_DevelopingTest' took 0.127
+[2019.01.18-22.56.03:733][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.18-22.56.06:474][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-22.56.07:078][151]LogRenderer: Reallocating scene render targets to support 1200x536 Format 26 NumSamples 1 (Frame:1161).
+[2019.01.18-22.56.07:123][152]LogRenderer: Reallocating scene render targets to support 1200x636 Format 26 NumSamples 1 (Frame:1163).
+[2019.01.18-22.56.07:168][153]LogRenderer: Reallocating scene render targets to support 1200x664 Format 26 NumSamples 1 (Frame:1165).
+[2019.01.18-22.56.07:210][154]LogRenderer: Reallocating scene render targets to support 1200x668 Format 26 NumSamples 1 (Frame:1167).
+[2019.01.18-22.56.37:304][931]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.18-22.56.49:616][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-22.56.49:700][654]LogTemp: Repeating last play command: Simulate
+[2019.01.18-22.56.49:710][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.18-22.56.49:723][654]PIE: New page: SIE session: LVL_DevelopingTest (Jan 18, 2019, 12:56:49 PM)
+[2019.01.18-22.56.49:723][654]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest
+[2019.01.18-22.56.49:727][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003896s)
+[2019.01.18-22.56.49:728][654]LogAIModule: Creating AISystem for world LVL_DevelopingTest
+[2019.01.18-22.56.49:728][654]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.01.18-22.56.49:729][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/LVL_DevelopingTest.LVL_DevelopingTest to /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest.LVL_DevelopingTest (0.005327s)
+[2019.01.18-22.56.49:783][654]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.18-22.56.49:885][654]LogInit: FAudioDevice initialized.
+[2019.01.18-22.56.49:927][654]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.18-22.56.49:927][654]LogLoad: Game class is 'GameModeBase'
+[2019.01.18-22.56.49:929][654]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest.LVL_DevelopingTest up for play (max tick rate 60) at 2019.01.18-17.56.49
+[2019.01.18-22.56.49:930][654]LogWorld: Bringing up level for play took: 0.001355
+[2019.01.18-22.56.49:946][654]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.01.18-22.56.49:947][654]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest 0.924
+[2019.01.18-22.56.53:092][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.56.53:124][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.18-22.56.53:149][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-22.56.53:196][843]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.18-23.05.30:644][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.13.58:768][253]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\buttercantfly.FBX)
+[2019.01.18-23.13.58:877][253]LogFbx: Loading FBX Scene from D:\buttercantfly.FBX
+[2019.01.18-23.13.58:893][253]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.18-23.14.00:998][253]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.18-23.14.06:766][444]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\buttercantfly.FBX)
+[2019.01.18-23.14.06:777][444]LogFbx: Loading FBX Scene from D:\buttercantfly.FBX
+[2019.01.18-23.14.06:792][444]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.18-23.14.18:346][444]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.18-23.14.18:368][444]LogFbx: =================================================
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:368][444]LogFbx: 	Total Deformer Count 1836471936.
+[2019.01.18-23.14.18:368][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:368][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:368][444]LogFbx: =================================================
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:368][444]LogFbx: 	Total Deformer Count 1836471936.
+[2019.01.18-23.14.18:368][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:368][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:368][444]LogFbx: =================================================
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:368][444]LogFbx: 	Total Deformer Count 1836471936.
+[2019.01.18-23.14.18:368][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:368][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:368][444]LogFbx: =================================================
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:368][444]LogFbx: 	Total Deformer Count 1836471936.
+[2019.01.18-23.14.18:368][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:368][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:368][444]LogFbx: =================================================
+[2019.01.18-23.14.18:368][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:368][444]LogFbx: 	Total Deformer Count 1836471936.
+[2019.01.18-23.14.18:369][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:369][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:369][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:369][444]LogFbx: =================================================
+[2019.01.18-23.14.18:369][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.18:369][444]LogFbx: 	Total Deformer Count 1612628736.
+[2019.01.18-23.14.18:369][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.18:369][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.18:369][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.18:369][444]LogFbx: Triangulating skeletal mesh Paint_mesh
+[2019.01.18-23.14.18:629][444]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 4
+[2019.01.18-23.14.18:682][444]LogSkeletalMesh: Section 0: 6504 vertices, 1 active bones
+[2019.01.18-23.14.18:682][444]LogSkeletalMesh: Section 0: Material=0, 5788 triangles
+[2019.01.18-23.14.18:683][444]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.14.19:738][444]LogSkeletalMesh: Built Skeletal Mesh [1.06s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.14.19:743][444]LogLinker: Can't find file '/Game/NewFolder/buttercantfly_Skeleton'
+[2019.01.18-23.14.19:743][444]LogLinker: Can't find file '/Game/NewFolder/buttercantfly_Skeleton'
+[2019.01.18-23.14.19:746][444]LogLinker: Can't find file '/Game/NewFolder/buttercantfly_PhysicsAsset'
+[2019.01.18-23.14.19:746][444]LogLinker: Can't find file '/Game/NewFolder/buttercantfly_PhysicsAsset'
+[2019.01.18-23.14.19:754][444]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.14.19:762][444]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.14.19:866][444]LogFbx: =================================================
+[2019.01.18-23.14.19:866][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:866][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:866][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:866][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:866][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:866][444]LogFbx: =================================================
+[2019.01.18-23.14.19:866][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:866][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:866][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:866][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:866][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:866][444]LogFbx: =================================================
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:867][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:867][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:867][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:867][444]LogFbx: =================================================
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:867][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:867][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:867][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:867][444]LogFbx: =================================================
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:867][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:867][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:867][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:867][444]LogFbx: =================================================
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.14.19:867][444]LogFbx: 	Total Deformer Count 99525632.
+[2019.01.18-23.14.19:867][444]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.14.19:867][444]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.14.19:867][444]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.14.19:867][444]LogFbx: SortedLinks :(0) unit_conversion_scaling
+[2019.01.18-23.14.19:867][444]LogFbx: SortedLinks :(1) Root
+[2019.01.18-23.14.19:867][444]LogFbx: SortedLinks :(2) HomeViewpoint
+[2019.01.18-23.14.19:868][444]LogFbx: SortedLinks :(3) Paint
+[2019.01.18-23.14.19:868][444]LogFbx: SortedLinks :(4) Paint_mesh
+[2019.01.18-23.14.19:974][444]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.14.21:040][444]LogSkeletalMesh: Built Skeletal Mesh [1.07s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.14.21:047][444]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.18-23.14.21:047][444]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.18-23.14.21:047][444]FBXImport: Warning: The bone size is too small to create Physics Asset 'buttercantfly_PhysicsAsset' from Skeletal Mesh 'buttercantfly'. You will have to create physics asset manually. 
+[2019.01.18-23.14.21:047][444]FBXImport: Warning: Animation Stack Take 001 does not contain any valid key. Try different time options when import. 
+[2019.01.18-23.14.21:048][444]FBXImport: Warning: This does not contain any valid animation takes. 
+[2019.01.18-23.14.21:062][444]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.14.22:157][444]LogSkeletalMesh: Built Skeletal Mesh [1.10s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.14.24:681][593]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.14.24:687][593]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.14.25:263][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/LVL_DevelopingTest' took 0.020
+[2019.01.18-23.14.25:266][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NewFolder/buttercantfly] ([1] browsable assets)...
+[2019.01.18-23.14.25:276][625]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/NewFolder/buttercantfly.buttercantfly]
+[2019.01.18-23.14.25:276][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewFolder/buttercantfly]
+[2019.01.18-23.14.25:276][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFolder/buttercantfly" FILE="../../../../../../Unreal Projects/Drugmatic_WC/Saved/Autosaves/Game/NewFolder/buttercantfly_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.18-23.14.25:300][625]LogSavePackage: Moving '../../../../../../Unreal Projects/Drugmatic_WC/Saved/buttercantfly_Auto1653D557F4EB1F3150F7AA7B8524100FE.tmp' to '../../../../../../Unreal Projects/Drugmatic_WC/Saved/Autosaves/Game/NewFolder/buttercantfly_Auto1.uasset'
+[2019.01.18-23.14.25:302][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewFolder/buttercantfly_Skeleton] ([1] browsable assets)...
+[2019.01.18-23.14.25:302][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewFolder/buttercantfly_Skeleton]
+[2019.01.18-23.14.25:305][625]LogSavePackage: Moving '../../../../../../Unreal Projects/Drugmatic_WC/Saved/buttercantfly_Skeleton_Auto1F2A52E8349FF1D9428DD5D97ECF03421.tmp' to '../../../../../../Unreal Projects/Drugmatic_WC/Saved/Autosaves/Game/NewFolder/buttercantfly_Skeleton_Auto1.uasset'
+[2019.01.18-23.14.25:307][625]LogFileHelpers: Auto-saving content packages took 0.043
+[2019.01.18-23.14.30:658][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.14.40:279][520]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.18-23.14.41:241][576]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (buttercantfly)
+[2019.01.18-23.14.46:673][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.14.46:740][903]LogTemp: Repeating last play command: Simulate
+[2019.01.18-23.14.46:750][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.18-23.14.46:750][903]PIE: New page: SIE session: LVL_DevelopingTest (Jan 18, 2019, 1:14:46 PM)
+[2019.01.18-23.14.46:750][903]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest
+[2019.01.18-23.14.46:754][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003737s)
+[2019.01.18-23.14.46:755][903]LogAIModule: Creating AISystem for world LVL_DevelopingTest
+[2019.01.18-23.14.46:755][903]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2019.01.18-23.14.46:755][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/LVL_DevelopingTest.LVL_DevelopingTest to /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest.LVL_DevelopingTest (0.004963s)
+[2019.01.18-23.14.46:811][903]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.18-23.14.46:910][903]LogInit: FAudioDevice initialized.
+[2019.01.18-23.14.46:944][903]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.01.18-23.14.46:944][903]LogLoad: Game class is 'GameModeBase'
+[2019.01.18-23.14.46:946][903]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest.LVL_DevelopingTest up for play (max tick rate 60) at 2019.01.18-18.14.46
+[2019.01.18-23.14.46:946][903]LogWorld: Bringing up level for play took: 0.001195
+[2019.01.18-23.14.46:959][903]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_LVL_DevelopingTest -0.064
+[2019.01.18-23.14.49:390][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-23.14.49:421][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.18-23.14.49:447][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.18-23.14.49:493][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.18-23.14.50:621][117]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.14.50:869][117]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.18-23.14.51:113][117]LogMaterial: Display: Missing cached shader map for material M_SkyBox, compiling. 
+[2019.01.18-23.14.51:139][117]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.18-23.14.51:311][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-23.14.51:382][117]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.01.18-23.14.52:222][117]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.18-23.14.52:303][117]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.01.18-23.14.52:334][117]LogRenderer: Reallocating scene render targets to support 1200x888 Format 26 NumSamples 1 (Frame:1).
+[2019.01.18-23.15.07:611][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.15.07:661][ 21]LogSlate: Window 'buttercantfly*' being destroyed
+[2019.01.18-23.15.07:667][ 21]LogSlate: Window 'buttercantfly*' being destroyed
+[2019.01.18-23.15.10:082][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.18-23.15.11:810][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.15.26:945][155]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.15.26:961][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-23.15.29:847][305]LogSlate: Window 'buttercantfly*' being destroyed
+[2019.01.18-23.15.29:855][305]LogSlate: Window 'buttercantfly*' being destroyed
+[2019.01.18-23.16.20:622][878]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.18-23.16.21:311][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.16.30:107][270]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.18-23.16.30:479][270]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.16.31:565][270]LogSkeletalMesh: Built Skeletal Mesh [1.09s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.17.00:063][363]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unreal Projects\buttercantfly.fbx)
+[2019.01.18-23.17.00:075][363]LogFbx: Loading FBX Scene from D:\Unreal Projects\buttercantfly.fbx
+[2019.01.18-23.17.00:092][363]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.18-23.17.09:493][363]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.18-23.17.09:512][363]LogFbx: =================================================
+[2019.01.18-23.17.09:512][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:512][363]LogFbx: 	Total Deformer Count 1406708160.
+[2019.01.18-23.17.09:512][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:512][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:512][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:513][363]LogFbx: =================================================
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:513][363]LogFbx: 	Total Deformer Count 1406708160.
+[2019.01.18-23.17.09:513][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:513][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:513][363]LogFbx: =================================================
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:513][363]LogFbx: 	Total Deformer Count 1406708160.
+[2019.01.18-23.17.09:513][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:513][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:513][363]LogFbx: =================================================
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:513][363]LogFbx: 	Total Deformer Count 184545472.
+[2019.01.18-23.17.09:513][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:513][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:513][363]LogFbx: =================================================
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:513][363]LogFbx: 	Total Deformer Count 184545472.
+[2019.01.18-23.17.09:513][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:513][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:513][363]LogFbx: =================================================
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.09:513][363]LogFbx: 	Total Deformer Count 184545472.
+[2019.01.18-23.17.09:513][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.09:513][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.09:513][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.09:521][363]LogFbx: Triangulating skeletal mesh Paint_mesh
+[2019.01.18-23.17.09:785][363]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 4
+[2019.01.18-23.17.09:838][363]LogSkeletalMesh: Section 0: 6504 vertices, 1 active bones
+[2019.01.18-23.17.09:838][363]LogSkeletalMesh: Section 0: Material=0, 5788 triangles
+[2019.01.18-23.17.09:839][363]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.17.10:915][363]LogSkeletalMesh: Built Skeletal Mesh [1.08s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.17.10:928][363]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.17.10:935][363]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:042][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:042][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:042][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:042][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:042][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:042][363]LogFbx: =================================================
+[2019.01.18-23.17.11:042][363]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.17.11:042][363]LogFbx: 	Total Deformer Count 1891378304.
+[2019.01.18-23.17.11:042][363]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.17.11:043][363]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.17.11:043][363]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.17.11:043][363]LogFbx: SortedLinks :(0) unit_conversion_scaling
+[2019.01.18-23.17.11:043][363]LogFbx: SortedLinks :(1) Root
+[2019.01.18-23.17.11:043][363]LogFbx: SortedLinks :(2) HomeViewpoint
+[2019.01.18-23.17.11:043][363]LogFbx: SortedLinks :(3) Paint
+[2019.01.18-23.17.11:043][363]LogFbx: SortedLinks :(4) Paint_mesh
+[2019.01.18-23.17.11:043][363]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.17.12:115][363]LogSkeletalMesh: Built Skeletal Mesh [1.07s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.17.12:124][363]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.18-23.17.12:124][363]FBXImport: Warning: The bone size is too small to create Physics Asset 'buttercantfly_PhysicsAsset' from Skeletal Mesh 'buttercantfly'. You will have to create physics asset manually. 
+[2019.01.18-23.17.12:124][363]FBXImport: Warning: Animation Stack Take 001 does not contain any valid key. Try different time options when import. 
+[2019.01.18-23.17.12:124][363]FBXImport: Warning: This does not contain any valid animation takes. 
+[2019.01.18-23.17.12:144][363]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.17.13:239][363]LogSkeletalMesh: Built Skeletal Mesh [1.10s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.17.14:494][436]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.17.14:499][436]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.17.23:023][944]Cmd: DELETE
+[2019.01.18-23.17.23:023][944]Cmd: ACTOR DELETE
+[2019.01.18-23.17.23:027][944]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.01.18-23.17.23:049][944]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.18-23.17.24:176][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.18-23.18.15:746][375]LogEditorFactories: Performing atomic reimport of [D:/buttercantfly.FBX]
+[2019.01.18-23.18.15:805][375]LogFbx: Loading FBX Scene from D:/buttercantfly.FBX
+[2019.01.18-23.18.15:821][375]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.18-23.18.15:838][375]LogFbx: =================================================
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:838][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:838][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:838][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:838][375]LogFbx: =================================================
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:838][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:838][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:838][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:838][375]LogFbx: =================================================
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:838][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:838][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:838][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:838][375]LogFbx: =================================================
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:838][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:838][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:838][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:838][375]LogFbx: =================================================
+[2019.01.18-23.18.15:838][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:838][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:839][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:839][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:839][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:839][375]LogFbx: =================================================
+[2019.01.18-23.18.15:839][375]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.15:839][375]LogFbx: 	Total Deformer Count 366484480.
+[2019.01.18-23.18.15:839][375]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.15:839][375]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.15:839][375]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.15:839][375]LogFbx: Triangulating skeletal mesh Paint_mesh
+[2019.01.18-23.18.16:147][375]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 4
+[2019.01.18-23.18.16:236][375]LogSkeletalMesh: Section 0: 6504 vertices, 1 active bones
+[2019.01.18-23.18.16:239][375]LogSkeletalMesh: Section 0: Material=0, 5788 triangles
+[2019.01.18-23.18.16:240][375]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.18.17:308][375]LogSkeletalMesh: Built Skeletal Mesh [1.07s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.17:310][375]LogEditorFactories: -- imported successfully
+[2019.01.18-23.18.17:416][375]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.18-23.18.17:416][375]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.18-23.18.17:416][375]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.18.18:497][375]LogSkeletalMesh: Built Skeletal Mesh [1.08s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.27:358][826]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.18-23.18.30:393][906]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\buttercantfly.FBX)
+[2019.01.18-23.18.30:404][906]LogFbx: Loading FBX Scene from D:\buttercantfly.FBX
+[2019.01.18-23.18.30:419][906]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.18-23.18.47:126][906]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.18-23.18.47:155][906]LogFbx: =================================================
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:155][906]LogFbx: 	Total Deformer Count 1923789056.
+[2019.01.18-23.18.47:155][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:155][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:155][906]LogFbx: =================================================
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:155][906]LogFbx: 	Total Deformer Count 1923789056.
+[2019.01.18-23.18.47:155][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:155][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:155][906]LogFbx: =================================================
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:155][906]LogFbx: 	Total Deformer Count 1923789056.
+[2019.01.18-23.18.47:155][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:155][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:155][906]LogFbx: =================================================
+[2019.01.18-23.18.47:155][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:156][906]LogFbx: 	Total Deformer Count 1921394240.
+[2019.01.18-23.18.47:156][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:156][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:156][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:156][906]LogFbx: =================================================
+[2019.01.18-23.18.47:156][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:156][906]LogFbx: 	Total Deformer Count 1921394240.
+[2019.01.18-23.18.47:156][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:156][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:156][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:156][906]LogFbx: =================================================
+[2019.01.18-23.18.47:156][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.47:156][906]LogFbx: 	Total Deformer Count 1921394240.
+[2019.01.18-23.18.47:156][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.47:156][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.47:156][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.47:156][906]LogFbx: Triangulating skeletal mesh Paint_mesh
+[2019.01.18-23.18.47:419][906]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 4
+[2019.01.18-23.18.47:472][906]LogSkeletalMesh: Section 0: 6504 vertices, 1 active bones
+[2019.01.18-23.18.47:472][906]LogSkeletalMesh: Section 0: Material=0, 5788 triangles
+[2019.01.18-23.18.47:473][906]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.18.48:545][906]LogSkeletalMesh: Built Skeletal Mesh [1.07s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.48:559][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.18.48:568][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:672][906]LogFbx: =================================================
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node START [Paint_mesh] 
+[2019.01.18-23.18.48:672][906]LogFbx: 	Total Deformer Count 99528320.
+[2019.01.18-23.18.48:672][906]LogFbx: 	Attribute () Type (4).
+[2019.01.18-23.18.48:672][906]LogFbx: 		[Node Attribute Child 1] Paint_mesh (Type Mesh).
+[2019.01.18-23.18.48:672][906]LogFbx: Dumping Node END [Paint_mesh]
+[2019.01.18-23.18.48:673][906]LogFbx: SortedLinks :(0) unit_conversion_scaling
+[2019.01.18-23.18.48:673][906]LogFbx: SortedLinks :(1) Root
+[2019.01.18-23.18.48:673][906]LogFbx: SortedLinks :(2) HomeViewpoint
+[2019.01.18-23.18.48:673][906]LogFbx: SortedLinks :(3) Paint
+[2019.01.18-23.18.48:673][906]LogFbx: SortedLinks :(4) Paint_mesh
+[2019.01.18-23.18.48:673][906]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.18.49:732][906]LogSkeletalMesh: Built Skeletal Mesh [1.06s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.49:743][906]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.01.18-23.18.49:743][906]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.01.18-23.18.49:744][906]FBXImport: Warning: The bone size is too small to create Physics Asset 'buttercantfly_PhysicsAsset' from Skeletal Mesh 'buttercantfly'. You will have to create physics asset manually. 
+[2019.01.18-23.18.49:744][906]FBXImport: Warning: Animation Stack Take 001 does not contain any valid key. Try different time options when import. 
+[2019.01.18-23.18.49:744][906]FBXImport: Warning: This does not contain any valid animation takes. 
+[2019.01.18-23.18.49:762][906]LogSkeletalMesh: Building Skeletal Mesh buttercantfly...
+[2019.01.18-23.18.50:857][906]LogSkeletalMesh: Built Skeletal Mesh [1.09s] /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.52:036][975]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.18.52:041][975]LogSlate: Window 'Message Log' being destroyed
+[2019.01.18-23.18.53:065][ 36]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/NewFolder/buttercantfly.buttercantfly
+[2019.01.18-23.18.53:078][ 36]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-23.18.55:001][126]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/NewFolder/buttercantfly_Skeleton.buttercantfly_Skeleton
+[2019.01.18-23.18.55:120][126]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.18-23.18.59:897][395]LogSlate: Window 'buttercantfly_Skeleton*' being destroyed
+[2019.01.18-23.18.59:904][395]LogSlate: Window 'buttercantfly_Skeleton*' being destroyed
+[2019.01.18-23.19.17:237][924]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.18-23.19.51:796][207]LogFactory: FactoryCreateFile: StaticMesh with AlembicImportFactory (0 0 D:\butter.ABC)
+[2019.01.18-23.20.08:122][207]LogSlate: Window 'Alembic Cache Import Options' being destroyed
